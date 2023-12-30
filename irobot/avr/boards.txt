@@ -1,0 +1,44 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+menu.cpu=Processor
+
+command_module.name=iRobot Create Command Module
+
+command_module.upload.tool=avrdude
+command_module.upload.protocol=arduino
+
+#command_module.bootloader.tool=avrdude
+#command_module.bootloader.low_fuses=0xFF
+#command_module.bootloader.unlock_bits=0x3F
+#command_module.bootloader.lock_bits=0x0F
+
+#command_module.build.f_cpu=16000000L
+command_module.build.f_cpu=18432000UL
+command_module.build.board=AVR_DUEMILANOVE
+command_module.build.core=arduino
+command_module.build.variant=standard
+command_module.build.mcu=atmega168
+
+command_module.upload.maximum_size=14336
+command_module.upload.maximum_data_size=1024
+command_module.upload.speed=19200
+
+#command_module.bootloader.high_fuses=0xdd
+#command_module.bootloader.extended_fuses=0x00
+#command_module.bootloader.file=atmega/ATmegaBOOT_168_diecimila.hex
+
+## Arduino Duemilanove or Diecimila w/ ATmega168
+## ---------------------------------------------
+##diecimila.menu.cpu.atmega168=ATmega168
+
+##diecimila.menu.cpu.atmega168.upload.maximum_size=14336
+##diecimila.menu.cpu.atmega168.upload.maximum_data_size=1024
+##diecimila.menu.cpu.atmega168.upload.speed=19200
+
+##diecimila.menu.cpu.atmega168.bootloader.high_fuses=0xdd
+##diecimila.menu.cpu.atmega168.bootloader.extended_fuses=0x00
+##diecimila.menu.cpu.atmega168.bootloader.file=atmega/ATmegaBOOT_168_diecimila.hex
+
+##diecimila.menu.cpu.atmega168.build.mcu=atmega168
+
+
